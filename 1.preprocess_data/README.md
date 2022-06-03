@@ -15,7 +15,7 @@ We discard well A1 from each plate, as each of these wells had an irregular illu
 While a typical microscopy illumination function involves vignetting in the image (as demonstrated in every well besides A1), this was not the case for any A1 well that was manually inspected (figure 1).
 This irregular illumination function led to errors in illumination correction later in preprocessing.
 
-## A. Illumination Correction 
+## B. Illumination Correction 
 
 We use the BaSiC method for illumination correction of each well.
 BaSiC was first introduced in [Peng, T., Thorn, K., Schroeder, T. et al., 2017](https://doi.org/10.1038/ncomms14836) and we use the [BaSiCPy implementation](https://github.com/peng-lab/BaSiCPy).
