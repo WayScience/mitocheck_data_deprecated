@@ -7,5 +7,10 @@ This step was applied before the movies were uploaded to IDR and thus the downlo
 
 Well A1 from each plate was also discarded, as each of these wells had an irregular illumination function. 
 
+![Illumination Functions](images/illumination_functions.png "Logo Title Text 1")
+**Figure 1**: *Illumination function of an example A1 well (left) vs a typical illumination function (right).*
+
 While a typical microscopy illumination function involves vignetting in the image (as demonstrated in every well besides A1), this was not the case for any A1 well that was manually inspected (figure 1).
-This irregular illumination function usually led to errors in illumination correction later in preprocessing.
+This irregular illumination function led to errors in illumination correction later in preprocessing.
+
+## A. Quality Control
