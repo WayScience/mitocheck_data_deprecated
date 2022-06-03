@@ -17,6 +17,9 @@ This irregular illumination function led to errors in illumination correction la
 
 ## A. Illumination Correction 
 
-We use [BaSiCPy](https://github.com/peng-lab/BaSiCPy) to perform illumination correction on each well.
-In the future we hope to implement a newer method of illumination correction introduced in [Peng et al., 2020](https://doi.org/10.1007/978-3-030-59722-1_17) once this method is [made available in python](https://github.com/peng-lab/BaSiCPy/issues/65).
+We use the BaSiC method for illumination correction of each well.
+BaSiC was first introduced in [Peng, T., Thorn, K., Schroeder, T. et al., 2017](https://doi.org/10.1038/ncomms14836) and we use the [BaSiCPy implementation](https://github.com/peng-lab/BaSiCPy).
+
+
+In the future we hope to implement a newer method of illumination correction introduced in [Peng, T et al., 2020](https://doi.org/10.1007/978-3-030-59722-1_17) once this method is [made available in python](https://github.com/peng-lab/BaSiCPy/issues/65).
 
