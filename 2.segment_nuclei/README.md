@@ -1,4 +1,4 @@
-# 0. Segment Nuclei
+# 2. Segment Nuclei
 
 In this module, we present our pipline for segmenting nuclei from the mitosis movies.
 
