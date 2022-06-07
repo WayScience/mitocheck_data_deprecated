@@ -11,10 +11,10 @@ The  MitoCheck paper referencing the data is available at https://doi.org/10.103
 Install Aspera high-speed transfer client as described at https://github.com/IBM/aspera-cli#installation.
 We used the direct installation method.
 
-### Step 1a: Add Aspera to sudo group
+### Step 1a: Make Aspera runnable without password
 
-It is necessary to add Aspera command line interface (ascp) to sudo group to use it more easily with python.
-In order to add ascp to sudo group do the following:
+It is necessary to make Aspera command line interface (ascp) run without a password to use it more easily with python.
+In order to run ascp without a password do the following:
 1) Type sudo visudo at the terminal to open the sudo permissions (sudoers) file
 2) Find the line with: `%sudo   ALL=(ALL:ALL) ALL`
 3) **Below that line**, insert the following line: `username  ALL=(ALL) NOPASSWD: path_to_aspera`
