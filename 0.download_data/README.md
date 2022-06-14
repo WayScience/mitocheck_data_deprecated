@@ -25,7 +25,7 @@ In order to run ascp without a password do the following:
 
 ## Step 2: Acquire Feature Data
 
-Sent by Heriche, will hopefully be able to upload.
+Donwload the [training_set](training_set) dataset
 
 ## Step 3: Download Labeled Data with Aspera
 
